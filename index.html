@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/896e1c075c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Fruty</title>
+  </head>
+  <body>
+    <!------------------------- Header ------------------------->
+    <header>
+
+
+      <!------------------------- Logo ------------------------->
+      <a class="logo" href="/"><i class="fa-solid fa-basket-shopping" style="color: #ff9500;"></i>Fruty</a>
+      
+
+      <!------------------------- Menu Icon ------------------------->
+        <i class="fa-solid fa-bars-staggered" id="menu-icon"></i>
+      
+
+      <!------------------------- Nav Links ------------------------->
+      <ul class="navbar" id="nav">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#customers">Customers</a></li>
+      </ul>
+
+
+      <!------------------------- Nav Links ------------------------->
+      
+      <div class="profile">
+        <img src="images/karim.jpg" alt="profile-pic">
+        <span>Karim Mohamed</span>
+        <i class="fa-solid fa-caret-down"></i>
+      </div>
+    </header>
+    
+    
+    <!------------------------- Home Section ------------------------->
+    <section class="home" id="home">
+      <div class="swiper-wrapper">
+        <swiper-container class="mySwiper" navigation="true">
+          <swiper-slide class="container">
+            <div class="home-text">
+              <span>We are delicacy</span>
+              <h1>Chosse delicacy <br> the best healthy <br> chicken salad </h1>
+              <a class="custom-btn" href="#">Shop now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <img src="images/1.png" alt="">
+          </swiper-slide>
+          <swiper-slide class="container">
+            <div class="home-text">
+              <span>We are delicacy</span>
+              <h1>Chosse delicacy <br> the best healthy <br> chicken salad </h1>
+              <a class="custom-btn" href="#">Shop now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <img src="images/2.png" alt="">
+          </swiper-slide>
+          <swiper-slide class="container">
+            <div class="home-text">
+              <span>We are delicacy</span>
+              <h1>Chosse delicacy <br> the best healthy <br> chicken salad </h1>
+              <a class="custom-btn" href="#">Shop now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <img src="images/3.png" alt="">
+          </swiper-slide>
+        </swiper-container>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+      
+    </section>
+    
+    <!------------------------- Categories Section ------------------------->
+
+    <section class="categories same-section" id="categories">
+        <div class="info">
+          <h2>Browse Our Hottest <br> <span>Catregories</span></h2>
+          <a class="custom-btn" href="#">View All<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="cardsContainer">
+          <!--  -->
+          <div class="card">
+            <img src="images/fruits.png" alt="">
+            <p>Fruits</p>
+            <span>22 Item</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="images/vegetables.png" alt="">
+            <p>Vegetables</p>
+            <span>35 Item</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="images/drinks.png" alt="">
+            <p>Drinks</p>
+            <span>18 Item</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="images/nuts.png" alt="">
+            <p>Nuts</p>
+            <span>13 Item</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="images/spices.png" alt="">
+            <p>Spices</p>
+            <span>16 Item</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <!--  -->
+        </div>
+    </section>
+
+    <!------------------------- Products Section ------------------------->
+
+    <section class="products same-section" id="products">
+      <div class="info">
+        <h2>Our Popular <br> <span>Products</span></h2>
+        <a class="custom-btn" href="#">View All<i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="cardsContainer">
+        <div class="card">
+            <p class="discount">-25%</p>
+            <i id="heart" class="fa-regular fa-heart"></i>
+          <img src="images/Green-Beans.png" alt="">
+          <div class="info">
+            <span>Fresh Items</span>
+            <p class="title">Farm fresh organic fruits 250g</p>
+            <p class="weight"><span>$7.99</span>/kg</p>
+          </div>
+          <i class="fa-solid fa-cart-shopping" id="cartIcon"></i>
+        </div>
+
+
+        <div class="card">
+            <p class="discount">-25%</p>
+            <i id="heart" class="fa-regular fa-heart"></i>
+          <img src="images/Carrots.png" alt="">
+          <div class="info">
+            <span>Fresh Items</span>
+            <p class="title">Farm fresh organic fruits 250g</p>
+            <p class="weight"><span>$7.99</span>/kg</p>
+          </div>
+          <i class="fa-solid fa-cart-shopping" id="cartIcon"></i>
+        </div>
+
+
+        <div class="card">
+            <p class="discount">-25%</p>
+            <i id="heart" class="fa-regular fa-heart"></i>
+          <img src="images/Banana.png" alt="">
+          <div class="info">
+            <span>Fresh Items</span>
+            <p class="title">Farm fresh organic fruits 250g</p>
+            <p class="weight"><span>$7.99</span>/kg</p>
+          </div>
+          <i class="fa-solid fa-cart-shopping" id="cartIcon"></i>
+        </div>
+        <div class="card">
+          <p class="discount">-25%</p>
+          <i id="heart" class="fa-regular fa-heart"></i>
+        <img src="images/Peach.png" alt="">
+        <div class="info">
+          <span>Fresh Items</span>
+          <p class="title">Farm fresh organic fruits 250g</p>
+          <p class="weight"><span>$7.99</span>/kg</p>
+        </div>
+        <i class="fa-solid fa-cart-shopping" id="cartIcon"></i>
+      </div>
+
+
+      <div class="card">
+          <p class="discount">-25%</p>
+          <i id="heart" class="fa-regular fa-heart"></i>
+        <img src="images/Pear.png" alt="">
+        <div class="info">
+          <span>Fresh Items</span>
+          <p class="title">Farm fresh organic fruits 250g</p>
+          <p class="weight"><span>$7.99</span>/kg</p>
+        </div>
+        <i class="fa-solid fa-cart-shopping" id="cartIcon"></i>
+      </div>
+
+
+      <div class="card">
+          <p class="discount">-25%</p>
+          <i id="heart" class="fa-regular fa-heart"></i>
+        <img src="images/Strawberries.png" alt="">
+        <div class="info">
+          <span>Fresh Items</span>
+          <p class="title">Farm fresh organic fruits 250g</p>
+          <p class="weight"><span>$7.99</span>/kg</p>
+        </div>
+        <i class="fa-solid fa-cart-shopping" id="cartIcon"></i>
+      </div>
+      </div>
+    </section>
+    
+    <!------------------------- About Section ------------------------->
+    <section class="about same-section" id="about">
+      <img src="images/salad.png" alt="">
+      <div class="info">
+        <p>ABOUT US</p>
+        <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum aperiam fugiat exercitationem beatae amet alias earum? Aliquam est, et fugit delectus atque eligendi, asperiores ex officiis laudantium, rem facere. Praesentium.</span>
+        <a class="custom-btn" href="#">Shop now <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+    
+    <!------------------------- Customers Section ------------------------->
+    <section class="customers same-section" id="customers">
+      <h2>Why Customer's Love Us?</h2>
+      <div class="commentsContainer">
+        <div class="card">
+          <i class="fa-solid fa-quote-left"></i>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia iste impedit fugiat maiores harum soluta tempora quia corporis tenetur et libero quidem, eveniet deleniti rerum incidunt veniam assumenda optio. Cumque.</p>
+          <div class="userInfo">
+            <img src="images/karim.jpg" alt="">
+            <p>Karim Mohamed</p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-quote-left"></i>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia iste impedit fugiat maiores harum soluta tempora quia corporis tenetur et libero quidem, eveniet deleniti rerum incidunt veniam assumenda optio. Cumque.</p>
+          <div class="userInfo">
+            <img src="images/karim.jpg" alt="">
+            <p>Karim Mohamed</p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-quote-left"></i>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia iste impedit fugiat maiores harum soluta tempora quia corporis tenetur et libero quidem, eveniet deleniti rerum incidunt veniam assumenda optio. Cumque.</p>
+          <div class="userInfo">
+            <img src="images/karim.jpg" alt="">
+            <p>Karim Mohamed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------- Footer ------------------------->
+    <footer>
+      <div class="info">
+        <div class="us">
+          <a class="logo" href="/"><i class="fa-solid fa-basket-shopping" style="color: #ff9500;"></i>Fruty</a>
+          <p class="address">
+            Egypt, Marsa Matruh,<br> North Cost
+          </p>
+          <div class="links">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+  
+  
+        <div class="mid">
+          <h3>Categories</h3>
+          <ul>
+            <li>Fruits & Vegetables</li>
+            <li>Dairy & Products</li>
+            <li>Package Food</li>
+            <li>Bevarage</li>
+          </ul>
+        </div>
+        <div class="mid">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Payment & Tax</li>
+            <li>Terms Of Use</li>
+            <li>My Blog</li>
+            <li>Return Policy</li>
+          </ul>
+        </div>
+  
+        <div class="newsletter">
+          <h2>NewsLetter</h2>
+          <p>Get 10% Discount with <br> Email NewsLetter</p>
+          <div class="field">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Enter Your Email">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      
+      <div class="copyRight">
+        <p>&copy; Karim Mohamed All Rights Reseved</p>
+      </div>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
